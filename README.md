@@ -27,8 +27,9 @@ curl -X POST \
     "desktopUrl": "http://dc.com",
     "mobileUrl": "http://mc.pm"
 }'
-```
+``` 
 
-the fbUser model once connected to database (MSSQL or MySQL or any other db) will return and save objects 
+
+the `fbUser` model once connected to database (MSSQL or MySQL or any other db) will return and save objects. No custom code or SQL query is required. Handled by loopback connector 
 
 This project is already imported into LB and exposed via Gateway, Al will show that on demo
