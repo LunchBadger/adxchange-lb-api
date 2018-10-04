@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models",
+      "./internal"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "Coinbase": {
+    "dataSource": "Memory",
+    "public": true
+  },
+  "MailSender": {
+    "dataSource": "Memory",
+    "public": true
+  },
+  "fbUsers": {
+    "dataSource": "Memory",
+    "public": true
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "name": "MailSender",
+  "plural": "",
+  "base": "PersistedModel",
+  "strict": false,
+  "public": true,
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "http": {
+    "path": "send-email"
+  },
+  "itemOrder": 1,
+  "lunchbadgerId": "9d7db262-e202-4e9c-9599-22c4c18c4ec5",
+  "wasBundled": false,
+  "properties": {
+    "to": {
+      "type": "string",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "a87e3cc0-a1f6-422d-acb9-49a9cc55efbe",
+      "itemOrder": 0
+    },
+    "subject": {
+      "type": "string",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "21a51b2e-fc4a-4ff7-a9cb-cdcc6ca6204d",
+      "itemOrder": 1
+    },
+    "message": {
+      "type": "string",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "f5cb6c81-0760-400f-ae2e-433ab77ba864",
+      "itemOrder": 2
+    },
+    "cost": {
+      "type": "number",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "914aad0c-bf5b-42aa-9047-178a96243632",
+      "itemOrder": 3
+    },
+    "cpms": {
+      "type": [],
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "7f75ca5e-347a-4fdb-84fa-be8cb1852ec4",
+      "itemOrder": 4
+    },
+    "days": {
+      "type": "number",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "e7049ef6-ac43-48ab-9dd0-7b26c91a6781",
+      "itemOrder": 5
+    },
+    "mobileUrl": {
+      "type": "string",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "f5e94c48-5bdc-444e-805e-ab87ce041a67",
+      "itemOrder": 6
+    },
+    "desktopUrl": {
+      "type": "string",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "d8e4c5ca-93ba-4656-81b3-3b8f1bc1cbfe",
+      "itemOrder": 7
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,39 @@
+{
+  "name": "adx-dev",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint && nsp check"
+  },
+  "dependencies": {
+    "nodemailer": "^4.6.8",
+    "cors": "^2.5.2",
+    "loopback-boot": "^2.6.5",
+    "serve-favicon": "^2.0.1",
+    "coinbase-commerce-node": "^1.0.0",
+    "strong-error-handler": "^2.0.0",
+    "@lunchbadger/loopback-component-explorer": "3.0.0",
+    "loopback-component-explorer": "^4.0.0",
+    "loopback": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-import": "2.3.0",
+    "eslint-plugin-node": "4.2.2",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "3.0.1",
+    "eslint": "^4.9.0",
+    "nsp": "^2.1.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "description": "adx-dev"
+}

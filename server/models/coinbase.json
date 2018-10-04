@@ -1,0 +1,77 @@
+{
+  "name": "Coinbase",
+  "plural": "",
+  "base": "PersistedModel",
+  "strict": false,
+  "public": true,
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "http": {
+    "path": "payment"
+  },
+  "itemOrder": 0,
+  "lunchbadgerId": "6ca2b8d8-c9ef-4195-a6f7-341bba5e1094",
+  "wasBundled": false,
+  "properties": {
+    "cost": {
+      "type": "number",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "c09d91fe-d53e-49ed-ba50-4e89364d6dff",
+      "itemOrder": 0
+    },
+    "cpmDesktop": {
+      "type": "number",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "fd99fb73-5ce0-4305-a1dd-5b03130bfddc",
+      "itemOrder": 1
+    },
+    "cpmMobile": {
+      "type": "number",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "0a4a2463-d08d-408d-bd97-843a122dfb11",
+      "itemOrder": 2
+    },
+    "daysTotal": {
+      "type": "number",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "b823f04b-8146-4894-9086-54d7dfe88b0c",
+      "itemOrder": 3
+    },
+    "desktopUrl": {
+      "type": "string",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "a3bd5906-42f5-46b0-92ed-e6caa85cb451",
+      "itemOrder": 4
+    },
+    "mobileUrl": {
+      "type": "string",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "c4e4faf9-4401-46fd-9f2b-7749777e87ef",
+      "itemOrder": 5
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

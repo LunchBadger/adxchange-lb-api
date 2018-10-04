@@ -1,0 +1,122 @@
+{
+  "name": "fbUsers",
+  "plural": "",
+  "base": "PersistedModel",
+  "strict": false,
+  "public": true,
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "http": {
+    "path": "fbusers"
+  },
+  "itemOrder": 2,
+  "lunchbadgerId": "20ed872e-cb7c-4e9e-a836-33e70d8ae23d",
+  "wasBundled": false,
+  "properties": {
+    "timeEpoch": {
+      "type": "number",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "fbfc2768-4fdd-4eee-9c88-00fe07e41313",
+      "itemOrder": 0
+    },
+    "publisherId": {
+      "type": "string",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "117f8bdc-22ea-444c-be79-2e46a5371970",
+      "itemOrder": 1
+    },
+    "gameId": {
+      "type": "string",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "f05c6038-ea86-49eb-921e-6695e2d3b177",
+      "itemOrder": 2
+    },
+    "coinId": {
+      "type": "string",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "b6604e90-f0e8-4d41-9012-6b23be0ec135",
+      "itemOrder": 3
+    },
+    "userId": {
+      "type": "string",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "8d4a6470-e000-4154-a2e7-764d6d4b954f",
+      "itemOrder": 4
+    },
+    "fbid": {
+      "type": "string",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "34a93fa4-3884-4446-9b87-7c0c461f4060",
+      "itemOrder": 5
+    },
+    "email": {
+      "type": "string",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "0cbf7e23-1fb1-4511-ba9f-e9a4bcfb7593",
+      "itemOrder": 6
+    },
+    "phone": {
+      "type": "string",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "6cadd59d-e7b8-47c9-8651-dc71581a1534",
+      "itemOrder": 7
+    },
+    "appleId": {
+      "type": "string",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "d1311379-61c0-4da8-a57f-fd425e4a5bef",
+      "itemOrder": 8
+    },
+    "googleId": {
+      "type": "string",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "183d0b39-46da-4d52-ba2b-4ba0e648593f",
+      "itemOrder": 9
+    },
+    "totalCoins": {
+      "type": "number",
+      "required": false,
+      "index": false,
+      "description": "",
+      "default": "",
+      "lunchbadgerId": "ca05d7b9-e111-440f-b7d0-d1ed23f6451e",
+      "itemOrder": 10
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

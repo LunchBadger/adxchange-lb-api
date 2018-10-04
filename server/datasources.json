@@ -1,0 +1,13 @@
+{
+  "Memory": {
+    "url": "",
+    "database": "",
+    "username": "",
+    "password": "",
+    "name": "Memory",
+    "connector": "memory",
+    "itemOrder": 0,
+    "lunchbadgerId": "7c15b6e0-b473-4aa4-a4eb-e6b85bada8ef",
+    "error": null
+  }
+}
