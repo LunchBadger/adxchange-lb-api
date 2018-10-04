@@ -1,7 +1,8 @@
 Each of the plugins was moved to Loopback models
 
-Email and Coinbase models use the same code that was originally developed 
-By default loopback has implementation of POST to `/model`
+Email and Coinbase models use the same code that was originally developed.
+
+Note: By default loopback has implementation of POST to `/modelpath`
 to override it the following construct is required 
 ```
 module.exports = function (MailSender) {.   // standard declaration
