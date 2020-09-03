@@ -19,7 +19,7 @@
     "strong-error-handler": "^2.0.0",
     "@lunchbadger/loopback-component-explorer": "3.0.0",
     "loopback-component-explorer": "^4.0.0",
-    "loopback": "^3.0.0"
+    "loopback": "^3.25.1"
   },
   "devDependencies": {
     "eslint-config-standard": "10.2.1",
